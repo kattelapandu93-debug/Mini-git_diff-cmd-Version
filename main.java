@@ -22,7 +22,7 @@ public static void main(String[] args) throws IOException {
         int len1 = fileA.size();
         int len2 = fileB.size();
         
-        System.out.print("Lines unchanged : "+lc.process(fileA,fileB,len1-1,len2-1));
+        System.out.print("Lines unchanged : "+lc.process(fileA,fileB,len1,len2));
         
 
 
